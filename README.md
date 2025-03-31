@@ -39,6 +39,9 @@ ROC curve and ROC AUC: To represent the performance of the classifier's performa
 
 Multinomial naive bayes, Random Forest and XGBoost, machine learning models, were also applied.
 
+## Model Evaluation and Predictions
+The test set obtained from train_test_split(X_test, y_test) was used for model evaluation and to make predictions.
+
 ## Contents of the repository
 This repository contains the following:
 
@@ -48,5 +51,3 @@ scripts/: May contain any Python scripts used for data processing or modeling (i
 models/: May contain saved model files (if applicable).
 README.md: This file, providing an overview of the project.
 presentation.pdf: Link to presentation (if applicable).
-## Model Evaluation and Predictions
-The test set obtained from train_test_split(X_test, y_test) was used for model evaluation and to make predictions.
